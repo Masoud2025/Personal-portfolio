@@ -1,0 +1,432 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="styles.css" />
+    <!-- add font [google font] -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Silkscreen&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="/front-end/Masoud-portfilio/images/layout/bg.png"
+    />
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+  </head>
+  <body>
+    <div class="topnav">
+      <a href="#contact">-contact</a>
+      <a href="#about" class="split"
+        >//Masoud <br />
+        <span class="subname">web-dev</span></a
+      >
+      <a href="#about">-about</a>
+      <a class="active" href="#home">-home</a>
+    </div>
+    <p class="about-me">//HI my name is Masoud Jafari a...</p>
+    <div class="wrapper">
+      <div class="typing-demo">{"Front-end developer"}</div>
+    </div>
+    <span class="te"> &lt;&gt; what drives my work &lt;/&gt; </span>
+    <span class="skl">What's in my head ?</span>
+    <!-- dark mode light mode -->
+    <button id="toggle-dali" onclick="changeThem()">Toggle dark mode</button>
+    <div class="vl"></div>
+    <div class="skills">
+      <div id="infografik">
+        <!-- <h1>What's in my head</h1> -->
+        <div class="leftside"></div>
+        <!-- / leftside -->
+        <div class="rightside">
+          <div id="maphover"></div>
+          <img
+            src="images/layout/gehirn_map.gif"
+            class="map"
+            alt="What's in my head"
+            usemap="#gehirn"
+            width="502"
+            height="401"
+          />
+        </div>
+        <!-- / rightside -->
+        <div class="clear"></div>
+        <!-- <p class="copytext">* The above shown graphic does not claim correctness in any kind of way.</p> -->
+      </div>
+      <map name="gehirn">
+        <!-- Design -->
+        <area
+          shape="poly"
+          coords="86,56,109,35,126,34,143,22,166,18,179,10,203,7,214,3,232,5,246,0,266,6,285,0,365,20,382,25,400,41,414,54,416,63,403,59,392,58,379,50,355,72,317,65,303,45,274,51,258,80,245,96,240,121,244,141,249,162,225,212,226,180,198,174,179,184,150,203,144,190,146,167,154,137,156,98,167,89,156,70,140,66,124,54,119,55,109,46"
+          title="Next js"
+          alt="ps"
+        />
+        <area
+          shape="poly"
+          coords="111,262,120,250,123,235,152,205,202,174,227,180,225,205,248,163,276,139,289,151,300,141,324,152,355,151,336,172,323,198,301,195,279,200,273,219,289,239,291,245,300,248,322,268,302,278,276,275,234,292,218,303,191,319,155,303,134,301,119,287"
+          title="Angular"
+          alt="ai"
+        />
+        <area
+          shape="poly"
+          coords="250,161,246,151,246,140,242,105,249,84,259,79,275,51,305,46,318,64,354,71,375,54,392,55,398,65,397,79,403,86,404,60,432,77,460,104,459,121,469,124,491,171,490,184,500,193,497,225,487,202,474,187,462,184,465,163,442,123,420,118,409,104,370,129,354,157,350,149,322,153,299,142,290,152,274,142"
+          title="RestAPI"
+          alt="ind"
+        />
+        <area
+          shape="poly"
+          coords="404,248,413,231,394,221,408,159,420,153,432,141,443,160,464,169,463,183,480,188,497,223,469,260,434,245,424,249"
+          title="typescript"
+          alt="fla"
+        />
+        <area
+          shape="poly"
+          coords="322,268,303,251,293,246,291,238,274,224,282,203,304,210,324,230,395,221,415,234,403,246,391,243,377,249,366,259,351,261"
+          title="SSR"
+          alt="fw"
+        />
+        <area
+          shape="poly"
+          coords="284,200,303,195,327,195,332,179,351,159,355,174,374,183,406,174,396,224,370,223,320,229"
+          title="Responsive design"
+          alt="pp"
+        />
+        <area
+          shape="poly"
+          coords="349,162,372,128,411,102,420,119,448,123,465,164,464,172,456,165,443,162,441,148,430,140,406,160,395,179,376,184,354,176"
+          title="PWA"
+          alt="ae"
+        />
+        <!-- Coding -->
+        <area
+          shape="poly"
+          coords="121,52,140,63,158,72,168,90,157,97,153,142,141,180,151,204,121,239,112,228,130,209,126,200,93,185,96,167,82,165,72,144,53,132,41,130,45,114,60,104,74,104,68,90,77,76,98,68"
+          title="(X)HTML"
+          alt="ht"
+        />
+        <area
+          shape="poly"
+          coords="122,238,115,230,109,230,131,208,127,198,110,192,95,182,93,166,82,165,74,142,55,128,40,131,38,140,52,152,35,151,28,168,44,190,43,201,63,229,83,230,94,226,100,245,120,250"
+          title="CSS"
+          alt="cs"
+        />
+        <area
+          shape="poly"
+          coords="118,251,97,241,92,228,73,230,60,225,56,213,42,205,42,191,27,169,14,163,10,156,10,151,16,129,8,121,4,132,5,147,0,175,12,185,11,196,37,239,52,247,82,263,113,259"
+          title="JavaScript"
+          alt="jas"
+        />
+        <area
+          shape="poly"
+          coords="30,171,14,164,9,152,16,131,17,119,23,108,26,102,37,98,49,85,54,74,110,44,116,54,96,69,75,78,70,94,74,104,60,102,44,118,44,128,38,137,53,151,36,151,28,159"
+          title="React js"
+          alt="php"
+        />
+        <area
+          shape="poly"
+          coords="18,129,9,123,10,115,24,95,35,78,59,54,70,53,80,43,91,44,84,58,58,73,49,78,52,88,46,87,38,99,24,104,28,120"
+          title="ActionScript"
+          alt="actsc"
+        />
+        <!-- Spiel -->
+        <area
+          shape="poly"
+          coords="272,276,274,286,291,318,302,322,316,313,325,314,331,301,345,294,375,279,423,266,442,261,452,258,450,252,433,244,424,249,407,246,387,242,377,250,364,259,352,261,337,268,321,267,300,279"
+          title="Super Nintendo"
+          alt="snes"
+        />
+        <area
+          shape="poly"
+          coords="325,314,330,303,345,288,379,277,453,254,455,277,440,314,424,312,412,311,364,334,333,328"
+          title="Wii"
+          alt="wii"
+        />
+        <area
+          shape="poly"
+          coords="440,315,421,310,411,312,362,333,334,327,323,314,315,318,322,331,356,355,401,343,414,343"
+          title="Nintendo DS"
+          alt="nds"
+        />
+        <area
+          shape="poly"
+          coords="314,312,314,322,349,354,378,350,398,345,381,359,350,364,326,349,304,325,299,312"
+          title="PlayStation 2"
+          alt="playst"
+        />
+        <area
+          shape="poly"
+          coords="287,304,272,310,286,321,295,336,314,351,343,361,313,338,300,323,304,310"
+          title="Other"
+          alt="sonst"
+        />
+      </map>
+    </div>
+    <!--  -->
+    <ul>
+      <li>
+        <a href="">
+          <i class="fa fa-facebook" aria-hidden="true"></i>
+          <span> - team work</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fa fa-twitter" aria-hidden="true"></i>
+          <span> - hard work</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fa fa-google-plus" aria-hidden="true"></i>
+          <span> - innovation</span>
+        </a>
+      </li>
+      <li>
+        <a href="">
+          <i class="fa fa-instagram" aria-hidden="true"></i>
+          <span> - excellence</span>
+        </a>
+      </li>
+    </ul>
+    <!--  -->
+    <!-- about section -->
+    <div class="about__section" id="about">
+      <h1>&lt;h1&gt; About me &lt;h1/&gt;</h1>
+      <img
+        src="../Minimalist-portfilio/photo_2023-12-28_07-29-09-removebg-preview.png"
+        alt=""
+        srcset=""
+      />
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi fugiat
+        qui praesentium, obcaecati ratione non dolore rem accusamus ad quaerat!
+        Aliquid eaque vero omnis sed facilis aliquam cum maxime atque
+        architecto! Amet corrupti sunt rerum sequi nesciunt! Et est itaque in
+        necessitatibus rem at. Saepe vel exercitationem porro, ut, dolores quo
+        labore sunt, natus modi reprehenderit obcaecati ab? Minima nisi alias
+        maiores, fuga provident in. Officiis neque porro error eligendi sit
+        repellendus a sunt quaerat libero repudiandae, adipisci iste ut qui
+        nemo, aliquid vel eaque asperiores rem molestias? A, eaque?
+      </p>
+    </div>
+    <div class="contact__me" id="contact">
+      <a href="https://github.com/Masoud2025" target="_blank">
+        <img
+          class="icons"
+          src="../Minimalist-portfilio/github_919847.png"
+          alt="github"
+          srcset=""
+        />
+      </a>
+      <a
+        href="https://www.linkedin.com/in/masoud-jafari-261ba7213/"
+        target="_blank"
+      >
+        <img
+          class="icons"
+          src="../Minimalist-portfilio/linkedin_3536569.png"
+          alt="linkdin"
+          srcset=""
+        />
+      </a>
+      <a
+        href="https://stackoverflow.com/users/15087089/masoud "
+        target="_blank"
+      >
+        <img
+          class="icons"
+          src="../Minimalist-portfilio/stack-overflow_2111806.png"
+          alt="stackoverflow"
+          srcset=""
+        />
+      </a>
+      <h4>+phone number : 09301561067</h4>
+    </div>
+    <div class="go__top">
+      <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+    </div>
+    <!--  grid card  layout  -->
+    <div class="angry-grid">
+      <h2 id="projects">&lt;h1&gt; Projects &lt;h1/&gt;</h2>
+      <div id="item-0">&nbsp;</div>
+      <div id="item-1">&nbsp;</div>
+      <div id="item-2">&nbsp;</div>
+      <div id="item-3">&nbsp;</div>
+      <div id="item-4">&nbsp;</div>
+      <div id="item-5">&nbsp;</div>
+      <div id="item-6">&nbsp;</div>
+      <div id="item-7">&nbsp;</div>
+      <div id="item-8">&nbsp;</div>
+    </div>
+    <!--  -->
+    <script src="logic.js"></script>
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"
+    ></script>
+    <script type="text/javascript" src="js/jquery.scrollTo.min.js"></script>
+    <script type="text/javascript" src="js/jquery.localscroll.min.js"></script>
+    <script type="text/javascript">
+      function changeThem() {
+        var element = document.body;
+        element.classList.toggle("dark-mode");
+      }
+      let mybutton = document.getElementById("myBtn");
+
+      // When the user scrolls down 20px from the top of the document, show the button
+      window.onscroll = function () {
+        scrollFunction();
+      };
+
+      function scrollFunction() {
+        if (
+          document.body.scrollTop > 20 ||
+          document.documentElement.scrollTop > 20
+        ) {
+          mybutton.style.display = "block";
+        } else {
+          mybutton.style.display = "none";
+        }
+      }
+
+      // When the user clicks on the button, scroll to the top of the document
+      function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+      }
+    </script>
+    <script type="text/javascript" src="js/jquery.hoverintent.min.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        var speed = 400;
+        $("#gpoy").hoverIntent(
+          function () {
+            $("#gpoy .hover").animate(
+              {
+                opacity: 1,
+              },
+              { queue: false, duration: speed }
+            );
+            $("#gpoy .normal").animate(
+              {
+                opacity: 0,
+              },
+              { queue: false, duration: speed }
+            );
+          },
+          function () {
+            $("#gpoy .hover").animate(
+              {
+                opacity: 0,
+              },
+              { queue: false, duration: speed }
+            );
+            $("#gpoy .normal").animate(
+              {
+                opacity: 1,
+              },
+              { queue: false, duration: speed }
+            );
+          }
+        );
+
+        var tooltip = $('<div class="tooltip"></div>');
+        $("body").append(tooltip);
+
+        $("area")
+          .hover(
+            function (e) {
+              $("#maphover").addClass($(this).attr("alt"));
+              $("#infografik .rightside").addClass($(this).attr("alt"));
+              $("table ." + $(this).attr("alt")).addClass("aktivtd");
+              $("table ." + $(this).attr("alt"))
+                .closest("div")
+                .addClass("aktivkat");
+
+              /* Tooltip */
+              var toolcon = $(this).attr("title");
+              $(this).attr("title", "");
+              tooltip.html(toolcon);
+              $(this).data("titleCon", toolcon);
+
+              var positX = e.pageX;
+              var positY = e.pageY;
+
+              positX = positX - tooltip.width / 2 - 4;
+              positY += 30;
+
+              tooltip.css({ top: positY, left: positX }).show();
+            },
+            function () {
+              $("#maphover").removeClass($(this).attr("alt"));
+              $("#infografik .rightside").removeClass($(this).attr("alt"));
+              $("table ." + $(this).attr("alt")).removeClass("aktivtd");
+              $("table ." + $(this).attr("alt"))
+                .closest("div")
+                .removeClass("aktivkat");
+
+              /* Tooltip */
+              tooltip.hide();
+              $(this).attr("title", $(this).data("titleCon"));
+            }
+          )
+          .mousemove(function (e) {
+            var positX = e.pageX;
+            var positY = e.pageY;
+
+            positX = positX - tooltip.width() / 2 - 4;
+            positY += 30;
+
+            tooltip.css({ top: positY, left: positX });
+          });
+        $("tr").hover(
+          function () {
+            var cur = $(this).find("td").attr("class");
+            $("#maphover").addClass(cur);
+            $("#infografik .rightside").addClass(cur);
+            $("table ." + cur).addClass("aktivtd");
+            $("table ." + cur)
+              .closest("div")
+              .addClass("aktivkat");
+          },
+          function () {
+            var cur = $(this).find("td").attr("class").split(" ", 1);
+            cur = String(cur);
+            $("#maphover").removeClass(cur);
+            $("#infografik .rightside").removeClass(cur);
+            $("table ." + cur).removeClass("aktivtd");
+            $("table ." + cur)
+              .closest("div")
+              .removeClass("aktivkat");
+          }
+        );
+        $(".gehirndesign, .gehirncoding, .gehirnspiele").hover(
+          function () {
+            var cur = $(this).find("th").attr("class");
+            $("#maphover").addClass(cur);
+            $("#infografik .rightside").addClass(cur);
+            $("table ." + cur).addClass("aktivtd");
+            $("table ." + cur)
+              .closest("div")
+              .addClass("aktivkat");
+          },
+          function () {
+            var cur = $(this).find("th").attr("class").split(" ", 1);
+            cur = String(cur);
+            $("#maphover").removeClass(cur);
+            $("#infografik .rightside").removeClass(cur);
+            $("table ." + cur).removeClass("aktivtd");
+            $("table ." + cur)
+              .closest("div")
+              .removeClass("aktivkat");
+          }
+        );
+      });
+    </script>
+  </body>
+</html>

@@ -1,0 +1,289 @@
+body {
+  font-size: 13px;
+  line-height: 18px;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  color: #3e3d3b;
+}
+.leftside {
+  margin-top: -74cm;
+  margin-left: -4cm;
+}
+div#navi div.rightside {
+  background: url("../images/layout/subnav_bg2.png") repeat-x;
+}
+
+/*------------------Map-----------------------*/
+#infografik {
+  width: 731px;
+
+  margin: 0 auto;
+  padding: 0 0 0 89px;
+}
+
+#infografik .leftside {
+  width: 164px;
+  float: left;
+}
+#infografik .leftside .gehirndesign,
+#infografik .leftside .gehirncoding,
+#infografik .leftside .gehirnspiele {
+  width: 100%; /* 130px */
+  padding: 7px 12px;
+  margin: 0;
+
+  background: url("../images/layout/gehirn_links_hover.png") no-repeat 0 500px;
+}
+#infografik .leftside .gehirndesign.aktivkat {
+  background-position: 0 0;
+}
+#infografik .leftside .gehirncoding.aktivkat {
+  background-position: 0 -191px;
+}
+#infografik .leftside .gehirnspiele.aktivkat {
+  background-position: 0 -337px;
+}
+#infografik .leftside table {
+  width: 100%;
+}
+
+#infografik .leftside table th {
+  line-height: 22px;
+  text-align: center;
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: default;
+}
+
+#infografik .leftside table td {
+  /*padding: 3px 0;*/
+  line-height: 22px;
+  text-align: center;
+  cursor: default;
+}
+
+#infografik .leftside table td.aktivtd {
+  font-weight: bolder;
+  color: #3e3d3b;
+}
+
+#infografik .rightside {
+  width: 502px;
+  height: 401px;
+  overflow: hidden;
+  position: absolute;
+  top: 158%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: url("../images/layout/gehirn_sprite.png") no-repeat;
+}
+
+/* Design */
+#infografik .rightside.desi,
+#infografik .rightside.ps,
+#infografik .rightside.ai,
+#infografik .rightside.ind,
+#infografik .rightside.fla,
+#infografik .rightside.fw,
+#infografik .rightside.pp,
+#infografik .rightside.ae {
+  background-position: 0 -802px;
+}
+/* Coding */
+#infografik .rightside.cod,
+#infografik .rightside.ht,
+#infografik .rightside.cs,
+#infografik .rightside.jas,
+#infografik .rightside.php,
+#infografik .rightside.actsc {
+  background-position: 0 -401px;
+}
+
+#maphover {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  background: url("../images/layout/gehirn_hover.png") no-repeat;
+}
+/* Design */
+#maphover.ps {
+  left: 86px;
+  top: 0;
+  width: 329px;
+  height: 210px;
+  background-position: 0 0;
+}
+#maphover.ai {
+  left: 111px;
+  top: 142px;
+  width: 243px;
+  height: 178px;
+  background-position: 0 -210px;
+}
+#maphover.ind {
+  left: 243px;
+  top: 45px;
+  width: 260px;
+  height: 183px;
+  background-position: 0 -388px;
+}
+#maphover.fla {
+  left: 396px;
+  top: 141px;
+  width: 101px;
+  height: 119px;
+  background-position: 0 -571px;
+}
+#maphover.fw {
+  left: 275px;
+  top: 199px;
+  width: 138px;
+  height: 72px;
+  background-position: -191px -571px;
+}
+#maphover.pp {
+  left: 280px;
+  top: 161px;
+  width: 126px;
+  height: 70px;
+  background-position: 0 -690px;
+}
+#maphover.ae {
+  left: 349px;
+  top: 104px;
+  width: 115px;
+  height: 80px;
+  background-position: -214px -690px;
+}
+/* Coding */
+#maphover.ht {
+  left: 44px;
+  top: 55px;
+  width: 124px;
+  height: 182px;
+  background-position: 0 -906px;
+}
+#maphover.cs {
+  left: 28px;
+  top: 130px;
+  width: 103px;
+  height: 120px;
+  background-position: -226px -906px;
+}
+#maphover.jas {
+  left: 1px;
+  top: 123px;
+  width: 119px;
+  height: 140px;
+  background-position: 0 -1088px;
+}
+#maphover.php {
+  left: 11px;
+  top: 45px;
+  width: 114px;
+  height: 125px;
+  background-position: -214px -1088px;
+}
+#maphover.actsc {
+  left: 8px;
+  top: 45px;
+  width: 85px;
+  height: 86px;
+  background-position: -131px -906px;
+}
+/* Spiele */
+#maphover.snes {
+  left: 271px;
+  top: 245px;
+  width: 182px;
+  height: 70px;
+  background-position: 0 -770px;
+}
+#maphover.wii {
+  left: 324px;
+  top: 256px;
+  width: 132px;
+  height: 77px;
+  background-position: -197px -770px;
+}
+#maphover.nds {
+  left: 317px;
+  top: 311px;
+  width: 122px;
+  height: 45px;
+  background-position: 0 -847px;
+}
+#maphover.playst {
+  left: 301px;
+  top: 311px;
+  width: 115px;
+  height: 53px;
+  background-position: -214px -847px;
+}
+#maphover.sonst {
+  left: 276px;
+  top: 303px;
+  width: 69px;
+  height: 59px;
+  background-position: -133px -847px;
+}
+
+#infografik .rightside .map {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 502px;
+  height: 401px;
+}
+
+.tooltip {
+  position: absolute;
+
+  padding: 0 10px;
+
+  min-width: 80px;
+
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  -ie-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4);
+
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -o-border-radius: 3px;
+  -ie-border-radius: 3px;
+  border-radius: 3px;
+
+  line-height: 26px;
+  text-align: center;
+
+  background: #fff;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0, rgb(230, 230, 230)),
+    color-stop(1, rgb(255, 255, 255))
+  );
+  background-image: -moz-linear-gradient(
+    center bottom,
+    rgb(230, 230, 230) 0%,
+    rgb(255, 255, 255) 100%
+  );
+}
+.tooltip:before {
+  content: "";
+  position: absolute;
+  top: -6px;
+  left: 50%;
+
+  margin: 0 0 0 -5px;
+
+  width: 10px;
+  height: 6px;
+
+  background: url("../images/layout/tooltip_spitze.png") no-repeat;
+}
